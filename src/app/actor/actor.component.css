@@ -1,0 +1,8 @@
+/* used to make navigation buttons text white */
+a[class="btn btn-primary"] {
+    color: white;
+}
+
+a[class="btn btn-primary"]:hover {
+    color: white;
+}

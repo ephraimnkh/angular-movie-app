@@ -1,27 +1,16 @@
-# MovieAng
+Angular Movie App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+This is a Movie/Actor Database App made using Angular 6 and MongoDB and Mongoose
 
-## Development server
+After cloning the project
+In your terminal or command prompt
+Enter the project directory angular-movie-app
+Run "npm install"
+Start a mongod instance on your machine if you are not sure how visit https://docs.mongodb.com/manual/installation/ to learn how to install and run mongoDB on your machine
+Run "ng build"
+Then run "node app.js"
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The server runs at http://localhost:8080/
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You can use the app to perform CRUD actions on Actor and Movie Objects.
+Movies can be added to Actors as well.
